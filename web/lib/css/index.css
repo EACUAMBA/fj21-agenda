@@ -1,0 +1,25 @@
+.container {
+    width: 966px;
+    margin: auto;
+
+}
+
+table {
+    width: 100%;
+}
+table th{ background-color: #2b2b2b; color: white;border: 1px dashed #000;}
+table td {
+    padding-left: 5px;
+    border: 1px dashed #000
+}
+table .action a{
+font-family: "LEMON MILK";
+    color: white;
+}
+table .action{
+    text-align: right;
+    padding: 5px;
+    background-color: #4c00ff;
+    color: white;
+    cursor: pointer;
+}

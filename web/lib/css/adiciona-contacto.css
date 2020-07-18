@@ -1,0 +1,49 @@
+body{background-color: #b2fff3}
+.container{
+    width: 966px;
+    margin: 0 auto;
+    font-family: "LEMON MILK Medium";
+    background-color: #d4fffa;
+}
+form{
+    margin-top: 20px;
+    width: 100%;
+    background-color: azure;
+}
+form h2{
+    margin: 10px;
+    font-family: "LEMON MILK";
+    text-align: center;
+}
+.label-input label, .label-input input{
+    display: block;
+    width: 95%;
+    color: #2b2b2b;
+    margin: 10px 0 0 20px;
+}
+.label-input input{
+    background-color: #d1fffc;
+    height: 40px;
+    border-radius: 7px;
+    margin: 5px 0 0 20px;
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+.button{
+    margin: 15px 0px;
+    display: block;
+    text-align: center;
+
+}
+.button input{
+    text-align: center;
+    background-color: #28ff8e;
+    border-radius: 7px;
+    height: 50px;
+    width: 150px;
+}
+.button input:hover{
+    background-color: rgba(255, 255, 255, 0.19);
+    border: 3px dashed #28ff8e;
+}
+

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    border: none;
+}
+@font-face {
+    font-family: "IconicFill";
+    src: url("/lib/font/iconic_fill.woff");
+}
+.container-menu{
+    width: 1100px;
+    margin: 0 auto;
+}
+header#menu{
+    width: 100%;
+    display: block;
+    background-color: #42ffc5;
+    color: #fff;
+    text-align: right;
+    position: relative;
+    font-family: "LEMON MILK Light";
+}
+
+header#menu ul li{
+    display: inline-block;
+    padding: 15px 5px;
+
+}
+header#menu ul li:hover{
+    background-color: #1ce4ff;
+    cursor: pointer;
+}
+header#menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+header#menu #listar:hover{
+    padding-right: 0px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+header#menu #listar:hover p{
+    padding-right: 5px;
+    display: inline-block;
+}
+header#menu #listar:hover #listar-oculto, #listar-oculto li{
+    display: inline-block;
+    background-color: #42ffc5;
+    font-size: 1.0em !important;
+}
+header#menu #listar-oculto{
+    display: none;
+}
+
+a#logo{
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    width: 100px;
+    text-align: center;
+    background-color: #9cf2ff;
+    height: 51px;
+}
+
+.remove::before{
+    content: "\1F5D1";
+    font-size: 1.9em;
+    color: #ff2c58;
+    margin-left: 10px;
+    fill: #fcff5c;
+}
+.home::before{
+    content: "\2302";
+    font-size: 1.9em;
+    color: #ff2c58;
+    margin-left: 10px;
+    fill: white;
+
+}

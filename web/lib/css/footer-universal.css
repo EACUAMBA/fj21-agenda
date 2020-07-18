@@ -1,0 +1,20 @@
+footer#rodape{
+    display: block;
+    background-color: #42ffc5;
+    text-align: center;
+}
+footer#rodape div p{
+    display: inline-block;
+position: relative;
+    padding: 25px;
+}
+footer#rodape div p::after{
+    content: " ";
+    background: url("/lib/img/logo.png");
+    height: 51px;
+    display: inline-block;
+    position:absolute;
+    right: -50px;
+    top: 10px;
+
+}

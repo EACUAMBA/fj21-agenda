@@ -1,0 +1,49 @@
+.linha-dado{
+    display: block;
+    background-color: white;
+    border-bottom: #c5c5c5 1px solid;
+}
+.linha-dado:hover{
+    border-bottom: #939393 1px dashed;
+    border-top: #939393 1px dashed;
+
+    cursor: pointer;
+}
+.linha-dado p{
+    display: inline-block;
+    padding: 10px;
+
+
+}
+.linha-dado .titulo{
+    background-color: #007fff;
+    color: white;
+    text-align: left;
+    width: 20%;
+}
+
+
+.linha-dado .dado{
+    background-color: #6ce2ff;
+    color: white;
+    text-align: left;
+    width: 75.376%;
+}
+
+
+
+.linha-dado .lista-c{
+    text-align: center;
+    display: block;
+    background-color: #28ff8e;
+    padding: 20px;
+}.linha-dado .lista-c:hover{
+     cursor: pointer;
+     background-color: #44ff2f;
+
+ }
+
+ .linha-dado a{
+     text-decoration: none;
+     color: inherit;
+ }

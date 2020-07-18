@@ -1,0 +1,35 @@
+table{
+    margin: 20px;
+    border-radius: 5px;
+    color: #2b2b2b;
+width: 100%;
+    background-color: #c6e9ff;
+
+}
+table thead{
+    padding: 2px;
+    background-color: #c6e9ff;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Times New Roman" !important;
+}
+table tbody{
+    background-color: #dafffd;
+    font-size: medium;
+    font-family: Helvetica !important;
+}
+table tbody tr td, table tr th {
+    padding: 5px;
+
+}
+table tbody .apagar, .editar{
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+}
+table tbody .apagar{
+    background-color: red;
+}
+table tbody .editar{
+    background-color: lawngreen;
+}
